@@ -1,0 +1,18 @@
+@import 'var';
+
+.simple{
+ background-color: #f6f9f9;
+}
+.simple-h{
+	text-align:center;
+	font-size:40px;
+	color:$color-h;
+	margin-top:80px;
+	margin-bottom:40px;
+}
+.simple-text{
+	text-align:center;
+	color:$color-text;
+	margin-bottom:110px;
+	font-size:20px;
+}

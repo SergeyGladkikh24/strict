@@ -1,0 +1,20 @@
+@import 'var';
+
+.logo{
+	height:100px;
+	background-color: #f6f9f9;
+		p{
+	text-transform:uppercase;
+	color:$color-h;
+	font-size:30px;
+	font-weight:bold;
+	letter-spacing:3px;
+	padding:{
+		top:33px;
+		left:185px;
+	}
+	background-image: url('../img/logo.png');
+	background-repeat:no-repeat;
+	background-position: 130px 34px;
+   }
+}

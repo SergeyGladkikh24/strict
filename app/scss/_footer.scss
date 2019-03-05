@@ -1,0 +1,67 @@
+@import 'var';
+
+footer{
+	background-color: #f6f9f9;
+}
+.copyright{
+	font-size:15px;
+	color:$color-text;
+	margin-top:35px;
+	margin-bottom:35px;
+}
+.social-icon{
+	margin-top:27px;
+}
+.facebook,.twitter,.google,.in{
+	background: url(../img/icon_footer_sprite.png) no-repeat;
+	height:40px;
+	width:40px;
+}
+.facebook{
+	background-position: 0 -52px;
+	&:hover{
+		background-position: 0 0;
+	}
+}
+.twitter{
+	background-position: -45px -52px;
+	&:hover{
+		background-position: -45px 0;
+	}
+}
+.google{
+	background-position: -90px -52px;
+	&:hover{
+		background-position: -90px 0;
+	}
+}
+.in{
+	background-position: -135px -52px;
+	&:hover{
+		background-position: -135px 0;
+	}
+}
+.col-xs-8{
+	width:81.666666%;
+}
+.col-xs-1{
+	width:4%;
+}
+
+.scrollup{
+	width:65px;
+	height:65px;
+	cursor:pointer;
+	opacity:0.4;
+	position:fixed;
+	bottom:20px;
+	right:25px;
+	display:none;
+	text-indent:-9999px;
+	z-index:9999;
+	background: url('../img/up-arrow.png') no-repeat;
+}
+
+.scrollup:hover{
+	opacity:1;
+}
